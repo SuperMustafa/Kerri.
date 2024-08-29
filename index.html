@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- navbar ================================================================= -->
+  <aside>
+     
+
+    <div class="site-colors bg-black position-relative">
+      <h4 class="text-white mx-2">choose a color</h4>
+      <div class="color-list bg-black">
+        <span class="coloor bg-danger"></span>
+        <span class="coloor bg-secondary"></span>
+        <span class="coloor bg-success"></span>
+        <span class="coloor bg-warning"></span>
+        <span class="coloor bg-primary"></span>
+      </div>
+    </div>
+  
+    
+      <div class="gear">
+        <i class="fa-solid fa-gear fs-2 text-white bg-dark p-1 position-absolute "></i>
+      </div>
+  </aside>
+
+  <div class="loading position-fixed top-0 bottom-0 start-0 end-0 bg-secondary">
+    <span class="loader"></span>
+  </div>
+
+  <nav class=" shadow-lg navbar navbar-expand-lg position-fixed start-0 end-0 top-0 z-3">
+
+    <div class="container ">
+      <a class="navbar-brand" href="#"><img src="images/logo-dark.png" alt="kerri-image"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-anchor" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Client">Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ================================================================= -->
+
+
+  <!-- header ==================================================================-->
+
+  <header id="Home" class="d-flex  justify-content-center align-items-center">
+    <div class=" header-txt mt-5 text-center text-white ">
+      <p class="fs-2 fw-bolder">Welcome</p>
+      <h1 class="special-font-size">I'm </h1>
+      <p class="text-secondary  ">It is a long established fact that a reader will be of a page when<br>
+        established fact looking at its layout.</p>
+      <button class="btn border px-5 py-3 rounded-pill">Download CV</button>
+      <div class="shape mt-5 position-relative start-50 translate-middle-x"></div>
+    </div>
+
+   
+
+  </header>
+
+  <!-- header ==================================================================-->
+
+
+  <main>
+    <!-- about section========================================================= -->
+    <section id="About" class="about mt-5 ">
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-6 ">
+            <div class="about-image border p-1">
+              <img src="images/about.jpg" class="w-100" alt="kerri">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-headings">
+              <h2><span class="fw-bolder">About</span> Me</h2>
+              <h3>Hello! <span class="fw-bolder">I'M Kerri Deo.</span> </h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a
+                page when looking at its layout.<br><br>
+
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content here,
+                content here', making it look like readable English.<br><br>
+
+                There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form, by injected humour, or randomised words
+                which don't look even slightly believable. </p>
+              <div class="about-headings-icons d-flex gap-5">
+                <div class="circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-facebook "></i>
+                </div>
+
+                <div class="circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <div class="circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+
+                <div class="circle d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section=============================================================== -->
+
+
+
+    <!-- our client ================================================================= -->
+    <section id="Client" class="our-client mt-5 py-5 ">
+      <div class="container">
+        <div class="section-head text-center ">
+          <h2>Our <span class="fw-bolder">Client</span></h2>
+          <p class="text-muted">It is a long established fact that a reader will be of a page<br>
+            when established fact looking at its layout.</p>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider d-flex flex-column align-items-center">
+                <i class="fa-solid fa-quote-left fa-3x site-color"></i>
+                <img src="images/testi-1.jpg" class="rounded-circle my-3" alt="kerri">
+                <p class="fst-italic">" The point of using Lorem Ipsum is that it has a more-or-less normal <br>
+                  distribution of letters, as opposed to using 'Content here."</p>
+                <p class="mb-5">- Ebony <span class="fw-bold">verty,</span></p>
+
+              </div>
+
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider d-flex flex-column align-items-center">
+                <i class="fa-solid fa-quote-left fa-3x site-color"></i>
+                <img src="images/testi-2.jpg" class="rounded-circle my-3" alt="kerri">
+                <p class="fst-italic">" The point of using Lorem Ipsum is that it has a more-or-less normal <br>
+                  distribution of letters, as opposed to using 'Content here."</p>
+                <p class="mb-5">- Ebony <span class="fw-bold">verty,</span></p>
+
+              </div>
+
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider d-flex flex-column align-items-center">
+                <i class="fa-solid fa-quote-left fa-3x site-color"></i>
+                <img src="images/testi-3.jpg" class="rounded-circle my-3" alt="kerri">
+                <p class="fst-italic">" The point of using Lorem Ipsum is that it has a more-or-less normal <br>
+                  distribution of letters, as opposed to using 'Content here."</p>
+                <p class="mb-5">- Ebony <span class="fw-bold">verty,</span></p>
+
+              </div>
+
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- our client ================================================================= -->
+
+    <!-- portfolio section ==================================================================-->\
+
+
+    <section id="Portfolio" class="my-5 ">
+      <div class="container ">
+
+        <!-- portfolio headings========================================================== -->
+
+        <div class="section-head text-center ">
+          <h2>Our <span class="fw-bolder">Works</span></h2>
+          <p class="text-muted">It is a long established fact that a reader will be of a page<br>
+            when established fact looking at its layout.</p>
+        </div>
+        <!-- portfolio headings========================================================== -->
+
+
+        <!-- portfolio buttons======================================================= -->
+
+        <ul class="nav nav-tabs d-flex justify-content-center " id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane"
+              type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo-tab-pane" type="button"
+              role="tab" aria-controls="seo-tab-pane" aria-selected="false">Seo</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button"
+              role="tab" aria-controls="web-tab-pane" aria-selected="false">Web design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work-tab-pane" type="button"
+              role="tab" aria-controls="work-tab-pane" aria-selected="false">Work</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="wordpress-tab" data-bs-toggle="tab" data-bs-target="#wordpress-tab-pane"
+              type="button" role="tab" aria-controls="wordpress-tab-pane" aria-selected="false">Wordpress</button>
+          </li>
+        </ul>
+        <!-- portfolio buttons ===================================================== -->
+
+
+
+
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab"
+            tabindex="0">
+            <div class="row my-4 g-3">
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/1.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/2.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/3.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/4.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/5.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/6.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
+            <div class="row my-4 g-3">
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/2.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/3.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/4.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/5.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/6.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabindex="0">
+            <div class="row my-4 g-3">
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/1.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/2.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/3.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/4.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/5.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/6.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="work-tab-pane" role="tabpanel" aria-labelledby="work-tab" tabindex="0">
+            <div class="row my-4 g-3">
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/1.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/2.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/3.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/4.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/5.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/6.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="wordpress-tab-pane" role="tabpanel" aria-labelledby="wordpress-tab"
+            tabindex="0">
+            <div class="row my-4 g-3">
+              <div class="col-md-4">
+                <div class="work-image position-relative overflow-hidden rounded-3  ">
+                  <img src="images/3.jpg" class="w-100" alt="kerri">
+                  <div class="dark-layer position-absolute top-0 start-0 end-0 bottom-0 bg-black  ">
+                    <div class="txt-caption text-white text-center h-100 ">
+                      <h4>Category </h4>
+                      <h5>project title</h5>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- portfolio section ==================================================================-->
+
+
+    <!-- Our blog ===========================================================================-->
+    <section id="Blog" class="our-blog gray-color pb-5">
+      <div class="section-head text-center py-5 ">
+        <h2>Our <span class="fw-bolder">Blog</span></h2>
+        <p class="text-muted">It is a long established fact that a reader will be of a page<br>
+          when established fact looking at its layout.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-2 border-0">
+              <img src="images/blog-1.jpg" class="w-100" alt="card-1">
+              <div class="card-info p-3">
+                <h5 class="fw-bold">There are many variations</h5>
+                <p class="fw-medium">11 March 2018 <span class="site-color fw-bold">By Kerri.</span></p>
+                <p>Sit sagittis vulputate laoreet sodales tortor <br> nulla lobortis bibendum netus primis <br> fames.
+                  Lobortis ultricies</p>
+                <div class="btn">Read More.....</div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2 border-0">
+              <img src="images/blog-2.jpg" class="w-100" alt="card-1">
+              <div class="card-info p-3">
+                <h5 class="fw-bold">There are many variations</h5>
+                <p class="fw-medium">11 March 2018 <span class="site-color fw-bold">By Kerri.</span></p>
+                <p>Sit sagittis vulputate laoreet sodales tortor <br> nulla lobortis bibendum netus primis <br> fames.
+                  Lobortis ultricies</p>
+                <div class="btn">Read More.....</div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2 border-0">
+              <img src="images/blog-3.jpg" class="w-100" alt="card-1">
+              <div class="card-info p-3">
+                <h5 class="fw-bold">There are many variations</h5>
+                <p class="fw-medium">11 March 2018 <span class="site-color fw-bold">By Kerri.</span></p>
+                <p>Sit sagittis vulputate laoreet sodales tortor <br> nulla lobortis bibendum netus primis <br> fames.
+                  Lobortis ultricies</p>
+                <div class="btn">Read More.....</div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Our blog ===========================================================================-->
+
+
+
+    <!-- contact us =========================================================================-->
+    <section id="Contact" class="contact-us pb-5">
+      <div class="container">
+        <div class="section-head text-center py-5 ">
+          <h2><span class="fw-bolder">Contact</span>Us</h2>
+          <p class="text-muted">It is a long established fact that a reader will be of a page<br>
+            when established fact looking at its layout.</p>
+        </div>
+
+        <div class="call-us position-relative ">
+          <div class="row ">
+            <div class="col-md-4">
+              <div class="mopile-icon text-center">
+                <i class="fa-solid fa-mobile-screen-button my-font-size site-color pb-3"></i>
+                <h4>Call Us On</h4>
+                <p>+985 123 7856</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mopile-icon text-center">
+                <i class="fa-solid fa-mobile-screen-button my-font-size site-color pb-3"></i>
+                <h4>Call Us On</h4>
+                <p>+985 123 7856</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mopile-icon text-center">
+                <i class="fa-solid fa-mobile-screen-button my-font-size site-color pb-3"></i>
+                <h4>Call Us On</h4>
+                <p>+985 123 7856</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Name" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your subject" aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">
+                  <textarea name="user-text-area" class="form-control" placeholder="your message" aria-label="Username"
+                    aria-describedby="basic-addon1"></textarea>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="btn my-btn py-2 px-5 text-white position-absolute end-0"> Send Message</button>
+
+
+        </div>
+    </section>
+    <!-- contact us =========================================================================-->
+
+  </main>
+
+
+
+  <script src="../../Jquery/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
